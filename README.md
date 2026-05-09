@@ -6,7 +6,7 @@ This project is built for frontend practice and UI design improvement.
 ---
 
 ## 🚀 Live Demo
-👉 https://your-project-name.vercel.app
+👉 [https://your-project-name.vercel.app](https://pizza-menu-assignment.vercel.app)
 
 ---
 
