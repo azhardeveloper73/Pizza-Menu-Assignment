@@ -1,0 +1,141 @@
+#header {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header h1 {
+  color: #e2c259;
+  letter-spacing: 2px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+#header h3 {
+  color: #1d1b18;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-top: 3px solid #1d1b18;
+  border-bottom: 3px solid #1d1b18;
+  padding: 7px;
+}
+
+#header p {
+  color: #706e68;
+  width: 400px;
+  text-align: center;
+  font-size: small;
+  word-spacing: 3px;
+}
+
+#foodlist {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0px 200px 0px 300px;
+}
+
+li {
+  display: flex;
+  gap: 20px;
+}
+
+#foodDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#foodDetails h3 {
+  color: #313130;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#foodDetails p {
+  width: 200px;
+  color: #706e68;
+  font-size: small;
+}
+
+#foodImg {
+  height: 100px;
+  width: 100px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#footArea {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#footArea p {
+  color: #706e68;
+}
+
+#footArea button {
+  padding: 7px 10px;
+  background-color: #e2c259;
+  border: none;
+  color: #313130;
+  font-size: small;
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: auto;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  #header h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  #header p {
+    width: 90%;
+  }
+
+  #foodlist {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 25px;
+  }
+
+  li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #foodDetails p {
+    width: 90%;
+  }
+
+  #foodImg {
+    height: 120px;
+    width: 120px;
+  }
+
+  #footArea {
+    padding: 20px;
+    text-align: center;
+  }
+}
